@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+  }
+  div{
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 4px;
+  }
+  h1{
+   display: inline-block;
+   font-size: 30px;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  .click{
+  animation:click 1s 1;
+  }
+  @keyframes click {
+     0% {transform: rotateY(180deg) }
+      100% {transform: rotateY(0deg)}
+    }
+  .notTrue{
+  animation:notTrue 1s 1;
+  }
+  @keyframes notTrue {
+     0% {transform: rotateY(-180deg) }
+      100% {transform: rotateY(0deg)}
+    }
